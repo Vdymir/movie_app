@@ -1,11 +1,6 @@
 import React from "react";
-import { View } from "react-native";
-import { Typography } from "@/shared/components";
+import { FavoritesView } from "@/shared/views";
 
 export default function FavoritesScreen() {
-  return (
-    <View>
-      <Typography>FavoritesScreen</Typography>
-    </View>
-  );
+  return <FavoritesView />;
 }

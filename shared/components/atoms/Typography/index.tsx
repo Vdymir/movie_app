@@ -19,7 +19,7 @@ export function Typography({
   return (
     <Text
       style={[
-        { color },
+        { color, fontFamily: "SpaceMono" },
         type === "default" ? styles.default : undefined,
         type === "title" ? styles.title : undefined,
         type === "defaultSemiBold" ? styles.defaultSemiBold : undefined,
@@ -35,7 +35,7 @@ export function Typography({
 const styles = StyleSheet.create({
   default: {
     fontSize: 16,
-    lineHeight: 24,
+    lineHeight: 18,
   },
   defaultSemiBold: {
     fontSize: 16,
@@ -43,9 +43,9 @@ const styles = StyleSheet.create({
     fontWeight: "600",
   },
   title: {
-    fontSize: 32,
-    fontWeight: "bold",
-    lineHeight: 32,
+    fontSize: 28,
+    fontWeight: "700",
+    lineHeight: 30,
   },
   subtitle: {
     fontSize: 20,

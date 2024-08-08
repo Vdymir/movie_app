@@ -2,7 +2,7 @@ import React from "react";
 import { View } from "react-native";
 import { Typography } from "@/shared/components";
 
-export default function Settings() {
+export function SettingsView() {
   return (
     <View>
       <Typography>Settings</Typography>
